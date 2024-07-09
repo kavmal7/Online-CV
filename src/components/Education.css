@@ -1,0 +1,40 @@
+#education {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+  
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#education li {
+    margin-bottom: 20px;
+}
+  
+#education a {
+    color: #007BFF;
+    text-decoration: none;
+}
+  
+#education a:hover {
+    text-decoration: underline;
+}
+  
+.resources {
+    margin-top: 10px;
+}
+  
+.resources a {
+    margin-right: 15px;
+    display: inline-block;
+}
+  
+.certificate-img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}

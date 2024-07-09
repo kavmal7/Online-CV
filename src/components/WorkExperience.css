@@ -1,0 +1,25 @@
+#work-experience {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+  
+#work-experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#work-experience li {
+    margin-bottom: 20px;
+}
+  
+#work-experience a {
+    color: #007BFF;
+    text-decoration: none;
+}
+  
+#work-experience a:hover {
+    text-decoration: underline;
+}
+  
