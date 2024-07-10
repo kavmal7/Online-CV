@@ -1,0 +1,25 @@
+#certificates {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+  
+#certificates ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#certificates li {
+    margin-bottom: 20px;
+}
+  
+#certificates a {
+    color: #007BFF;
+    text-decoration: none;
+}
+  
+#certificates a:hover {
+    text-decoration: underline;
+}
+  

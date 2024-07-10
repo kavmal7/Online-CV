@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
     return (
@@ -10,7 +11,8 @@ const Header = () => {
                     <li><a href='professional-experience'>Professional Experience</a></li>
                     <li><a href='projects'>Projects</a></li>
                     <li><a href='certifications'>Certifications</a></li>
-                    <li><a href='additional-skills-and-interests'>Additional Skills and Interests</a></li>
+                    <li><a href='languages'>Languages</a></li>
+                    <li><a href='additional-skills-and-hobbies'>Additional Skills and Hobbies</a></li>
                     <li><a href='footer'>Footer</a></li>
                 </ul>
             </nav>

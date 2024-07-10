@@ -1,0 +1,15 @@
+#languages {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+  
+  #languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+  #languages li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+#projects {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+  
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#projects li {
+    margin-bottom: 20px;
+}
+  
+#projects a {
+    color: #007BFF;
+    text-decoration: none;
+}
+  
+#projects a:hover {
+    text-decoration: underline;
+}
+  
