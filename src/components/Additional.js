@@ -27,7 +27,7 @@ const Additional = () => (
     <section id="skills-hobbies">
       <h2>Skills & Hobbies</h2>
       <div className="skills-hobbies-container">
-        {skillsAndHobbies.map((item, index) => (
+        {skillsHobbies.map((item, index) => (
           <div key={index} className="skill-hobby-box">
             {item}
           </div>
