@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 
-const About = () => {
+const About = () => (
     <section id='about'>
         <h2>About Me</h2>
         <p>
@@ -17,6 +17,6 @@ const About = () => {
             In addition to the aforementioned, I am able to speak multiple languages. I am fluent in English, Norwegian, and Hindi, but also have a rudimentary understanding of other languages such as French and Japanese (that is, some words and phrases).
         </p>
     </section>
-}
+)
 
 export default About;
