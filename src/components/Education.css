@@ -1,8 +1,11 @@
-#education {
+.full-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    margin: 20px 0;
+    background-color: #f0f0f0;
 }
   
 #education ul {
