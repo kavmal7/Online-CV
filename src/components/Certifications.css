@@ -1,11 +1,12 @@
-.full-screen {
+#certificates {
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     padding: 20px;
-    background-color: #e0e0e0;
+    background-color: rgb(149, 133, 133);
 }
   
 #certificates ul {

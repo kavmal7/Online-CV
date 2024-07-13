@@ -59,13 +59,13 @@ const certificates = [
 ]
 
 const Certifications = () => (
-    <section id="certificates">
-      <h2>Certificates</h2>
+    <section id="certifications">
+      <h2>Certifications</h2>
       <ul>
         {certificates.map((cert, index) => (
           <li key={index}>
             <strong>{cert.name}</strong> from <em>{cert.institution}</em><br/>
-            Skills: {cert.skills}<br />
+            Skills: {cert.skills}<br/>
             <a href={cert.certificateUrl} target="_blank" rel="noopener noreferrer">View Certificate</a>
           </li>
         ))}
