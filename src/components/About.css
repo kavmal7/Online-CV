@@ -1,14 +1,22 @@
-.full-screen {
+#about {
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     padding: 20px;
-    background-color: rgb(9, 9, 218);
+    background-color: rgb(218, 89, 89);
 }
   
-.about-text {
-    max-width: 800px;
-    text-align: center;
+#about.about-text {
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 15px;
 }
+  
+#about.about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
