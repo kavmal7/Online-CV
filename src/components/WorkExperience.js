@@ -20,7 +20,7 @@ const experiences = [
 
 
 const WorkExperience = () => (
-    <section id="work-experience">
+    <section id="work-experience" className='work-experience-section'>
       <h2>Work Experience</h2>
       <ul>
         {experiences.map((exp, index) => (

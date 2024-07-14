@@ -4,19 +4,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
     background-color: rgb(218, 89, 89);
 }
-  
-#about.about-text {
-    max-height: 600px;
-    overflow-y: auto;
-    padding-right: 15px;
-}
-  
-#about.about-text p {
+
+#about p {
     margin-bottom: 15px;
     line-height: 1.6;
 }
 
+.about-text {
+    align-items: center;
+    padding: 0 300px;
+    margin-left: 400px;
+}
+
+.about-section h2 {
+    font-size: 3em;
+}

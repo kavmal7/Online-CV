@@ -37,8 +37,12 @@
 }
   
 .certificate-img {
-    width: 100px;
+    width: 200px;
     height: auto;
     display: block;
     margin-top: 10px;
+}
+
+#education h2 {
+    font-size: 3em;
 }

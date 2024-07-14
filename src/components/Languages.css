@@ -9,11 +9,16 @@
     background-color: rgb(77, 28, 28);
 }
   
-  #languages ul {
+#languages ul {
     list-style-type: none;
     padding: 0;
+    line-height: 3.0;
 }
   
-  #languages li {
+#languages li {
     margin-bottom: 10px;
+}
+
+#languages h2 {
+    font-size: 3em;
 }

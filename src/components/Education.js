@@ -25,7 +25,7 @@ const academicExperience = [
 ]
 
 const Education = () => (
-    <section id='education'>
+    <section id='education' className='education-section'>
         <h2>Education</h2>
         <ul>
             {academicExperience.map((edu, index) => (

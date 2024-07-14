@@ -5,13 +5,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 400px;
     background-color: rgb(143, 218, 89);
 }
   
 #work-experience ul {
     list-style-type: none;
-    padding: 0;
+    line-height: 1.6;
 }
   
 #work-experience li {
@@ -27,3 +27,6 @@
     text-decoration: underline;
 }
   
+#work-experience h2 {
+    font-size: 3em;
+}

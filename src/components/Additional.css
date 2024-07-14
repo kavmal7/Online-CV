@@ -25,3 +25,7 @@
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+#skills-hobbies h2 {
+    font-size: 3em;
+}
