@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => (
-    <section id='footer'>
+    <section id='footer' className='footer'>
       <p>Contact: kavyamal74@gmail.com</p>
       <p>Phone Number: +47 90710038</p>
       <ul>

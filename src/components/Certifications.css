@@ -1,4 +1,4 @@
-#certificates {
+#certifications {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -9,21 +9,21 @@
     background-color: rgb(149, 133, 133);
 }
   
-#certificates ul {
+#certifications ul {
     list-style-type: none;
     padding: 0;
 }
   
-#certificates li {
+#certifications li {
     margin-bottom: 20px;
 }
   
-#certificates a {
+#certifications a {
     color: #007BFF;
     text-decoration: none;
 }
   
-#certificates a:hover {
+#certifications a:hover {
     text-decoration: underline;
 }
   
