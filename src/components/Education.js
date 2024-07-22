@@ -1,5 +1,4 @@
 import React from 'react';
-import './Education.css';
 import { Box, Container, Heading, Image, Text, VStack, HStack, Link, Divider } from '@chakra-ui/react';
 
 const academicExperience = [
@@ -35,9 +34,9 @@ const academicExperience = [
 const Education = () => (
     <Box id="education" py={8} bg="white">
       <Container maxW="container.md" textAlign="center">
-        <Heading as="h2" size="xl" mb={6}>
+        <Text fontSize="5xl" mb={6}>
           Education
-        </Heading>
+        </Text>
         <VStack spacing={8} align="stretch">
           {academicExperience.map((item, index) => (
             <Box key={index} mb={8}>

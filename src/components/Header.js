@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Link, HStack, Text, Spacer } from '@chakra-ui/react';
+import { Box, Flex, Link, HStack, Text, Spacer, Container } from '@chakra-ui/react';
 
 const links = [
     { name: 'About', id: 'about' },
@@ -31,23 +31,34 @@ const NavLink = ({ children, href }) => (
   
 const Header = () => {
     return (
-      <Box bg="white" px={4} color="black" borderBottom="1px" borderColor="gray.200">
-        <Flex h={16} alignItems="center" justifyContent="space-between" maxW="1200px" mx="auto">
-            <Text fontSize="xl" fontWeight="bold" flex="1" textAlign="left" fontFamily="'Roboto Condensed', sans-serif" ml={-59}>
+      <Box
+        as="header"
+        position="fixed"
+        width="100%"
+        bg="white"
+        px={4}
+        color="black"
+        borderBottom="1px"
+        borderColor="gray.200"
+        zIndex="1000"
+        boxShadow="sm"
+      >
+        <Container maxW="container.lg">
+          <Flex h={16} alignItems="center" justifyContent="space-between">
+            <Text fontSize="xl" fontWeight="bold" textAlign="left" fontFamily="'Roboto Condensed', sans-serif">
               My Portfolio
             </Text>
-            <Spacer/>
-            <HStack as="nav" spacing={3}>
+            <HStack as="nav" spacing={4}>
               {links.map((link) => (
                 <NavLink key={link.id} href={`#${link.id}`}>
                   {link.name}
                 </NavLink>
               ))}
             </HStack>
-            <Spacer/>
-        </Flex>
+          </Flex>
+        </Container>
       </Box>
     );
-};
+  };
   
 export default Header;

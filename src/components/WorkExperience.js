@@ -1,5 +1,5 @@
 import React from 'react';
-import './WorkExperience.css';
+import { Box, Container, Heading, Text, VStack, HStack, Link, Divider } from '@chakra-ui/react';
 
 const experiences = [
     {
@@ -13,24 +13,35 @@ const experiences = [
         company: 'Indisk Emporium AS',
         role: 'Web developer',
         year: '2020 - Present',
-        details: 'My responsibilities here consist of assisting in development of the website (https://www.indiske.com/) and keeping up with all the new features and updates of Wix, a cloud-based web development service. I have been able to apply my knowledge of HTML, JavaScript, and SQL variants in this realm, along with other mainstream programming languages.',
+        details: 'My responsibilities here consist of assisting in development of the company\'s website and keeping up with all the new features and updates of Wix, a cloud-based web development service. I have been able to apply my knowledge of HTML, JavaScript, and SQL variants in this realm, along with other mainstream programming languages.',
         companyUrl: 'https://www.indiske.com/'
     }
 ]
 
-
 const WorkExperience = () => (
-    <section id="work-experience" className='work-experience-section'>
-      <h2>Work Experience</h2>
-      <ul>
-        {experiences.map((exp, index) => (
-          <li key={index}>
-            <strong>{exp.role}</strong> at <a href={exp.companyUrl} target="_blank" rel="noopener noreferrer">{exp.company}</a> ({exp.year})<br/>
-            {exp.details}
-          </li>
+  <Box id="work-experience" py={8}>
+    <Container maxW="container.md" textAlign="center">
+      <Text fontSize="5xl" mb={6}>
+        Work Experience
+      </Text>
+      <VStack spacing={8} align="stretch">
+        {experiences.map((item, index) => (
+          <Box key={index} mb={8}>
+            <HStack spacing={6} align="start">
+            <Box textAlign="left">
+                <Text fontWeight="bold" fontSize="lg">{item.role}</Text>
+                <Text fontSize="md" color="gray.600">{item.company}</Text>
+                <Text fontSize="sm" color="gray.500">{item.year}</Text>
+                <Text fontSize="sm" mt={2}>{item.details}</Text>
+                <Link href={item.companyUrl} color="blue.500" isExternal mt={2}>Visit Website</Link>
+              </Box>
+            </HStack>
+            {index < experiences.length - 1 && <Divider my={6}/>}
+          </Box>
         ))}
-      </ul>
-    </section>
+      </VStack>
+    </Container>
+  </Box>
 );
 
 export default WorkExperience;

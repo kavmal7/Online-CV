@@ -10,18 +10,26 @@ import Additional from './components/Additional';
 import Footer from './components/Footer';
 import './App.css';
 
+const sections = [
+  { Component: About, className: 'blue-bg' },
+  { Component: Education, className: 'white-bg' },
+  { Component: WorkExperience, className: 'blue-bg' },
+  { Component: Projects, className: 'white-bg' },
+  { Component: Certifications, className: 'blue-bg' },
+  { Component: Languages, className: 'white-bg' },
+  { Component: Additional, className: 'blue-bg' },
+];
+
 function App() {
   return (
     <div className="App">
       <Header/>
       <main>
-        <About/>
-        <Education/>
-        <WorkExperience/>
-        <Projects/>
-        <Certifications/>
-        <Languages/>
-        <Additional/>
+        {sections.map(({ Component, className }, index) => (
+          <section className={className} key={index}>
+            <Component />
+          </section>
+        ))}
       </main>
       <Footer/>
     </div>
