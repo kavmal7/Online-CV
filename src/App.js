@@ -25,13 +25,13 @@ function App() {
     <div className="App">
       <Header/>
       <main>
-        {sections.map(({ Component, className }, index) => (
-          <section className={className} key={index}>
-            <Component />
+        {sections.map(({ Component, className, id }, index) => (
+          <section className={className} key={index} id={id}>
+            <Component/>
           </section>
         ))}
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

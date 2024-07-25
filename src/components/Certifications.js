@@ -1,5 +1,5 @@
 import React from 'react';
-import './Certifications.css';
+import { Box, Container, Heading, Text, VStack, HStack, Link, Divider, SimpleGrid } from '@chakra-ui/react';
 
 const certificates = [
     {
@@ -59,18 +59,28 @@ const certificates = [
 ]
 
 const Certifications = () => (
-    <section id="certifications">
-      <h2>Certifications</h2>
-      <ul>
-        {certificates.map((cert, index) => (
-          <li key={index}>
-            <strong>{cert.name}</strong> from <em>{cert.institution}</em><br/>
-            Skills: {cert.skills}<br/>
-            <a href={cert.certificateUrl} target="_blank" rel="noopener noreferrer">View Certificate</a>
-          </li>
-        ))}
-      </ul>
-    </section>
-);
+    <Box id="certifications" py={8} minHeight="100vh">
+      <Container maxW="container.md" textAlign="center">
+        <Text fontSize="5xl" mb={6}>
+            Certificates
+        </Text>
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+            {certificates.map((cert, index) => (
+            <Box key={index}>
+                <VStack spacing={4} align="stretch">
+                <Box textAlign="left">
+                    <Text fontWeight="bold" fontSize="lg">{cert.name}</Text>
+                    <Text fontSize="md" color="gray.600">{cert.institution}</Text>
+                    <Text fontSize="sm" color="gray.500">{cert.skills}</Text>
+                    <Link href={cert.certificateUrl} color="blue.500" isExternal mt={2}>View Certificate</Link>
+                </Box>
+                {index < certificates.length - 1 && <Divider my={4} />}
+                </VStack>
+            </Box>
+            ))}
+      </SimpleGrid>
+      </Container>
+    </Box>
+  );
 
 export default Certifications;

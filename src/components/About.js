@@ -2,8 +2,8 @@ import React from 'react';
 import { Box, Container, Heading, Text, Flex } from '@chakra-ui/react';
 
 const About = () => (
-  <Box id="about" py={8}>
-    <Container id='about-section' maxW="container.md" textAlign="center">
+  <Box id="about" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100%">
+    <Container id='about-section' maxW="container.md" textAlign="center" alignItems="center">
       <Text fontSize="5xl" mb={4} mt={4}>
         About Me
       </Text>

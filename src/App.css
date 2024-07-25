@@ -1,10 +1,14 @@
 .white-bg {
+  min-height: 100vh;
+  display: flex;
   background-color: white;
   padding: 2rem;
   box-sizing: border-box;
 }
 
 .blue-bg {
+  min-height: 100vh;
+  display: flex;
   background-color: rgb(240, 248, 255); /* Very light blue */
   padding: 2rem;
   box-sizing: border-box;
@@ -15,6 +19,7 @@ section {
   display: flex;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
+  margin-top: 0;
 }
 
 header {
@@ -22,4 +27,29 @@ header {
   z-index: 1000; /* Ensure header is above other content */
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slick-prev,
+.slick-next {
+  width: auto !important;
+  height: auto !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: "1400px";
+  box-sizing: border-box;
+}
+
+.slide-content {
+  width: 90%; 
+  height: 100%;
+  overflow: hidden;
 }

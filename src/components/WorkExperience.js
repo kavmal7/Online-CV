@@ -19,8 +19,8 @@ const experiences = [
 ]
 
 const WorkExperience = () => (
-  <Box id="work-experience" py={8}>
-    <Container maxW="container.md" textAlign="center">
+  <Box id="work-experience" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100%">
+    <Container maxW="container.md" textAlign="center" alignItems="center">
       <Text fontSize="5xl" mb={6}>
         Work Experience
       </Text>

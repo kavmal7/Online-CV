@@ -32,8 +32,8 @@ const academicExperience = [
 ]
 
 const Education = () => (
-    <Box id="education" py={8} bg="white">
-      <Container maxW="container.md" textAlign="center">
+    <Box id="education" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100%">
+        <Container maxW="container.md" textAlign="center" alignItems="center">
         <Text fontSize="5xl" mb={6}>
           Education
         </Text>

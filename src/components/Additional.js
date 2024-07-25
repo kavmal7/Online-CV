@@ -1,16 +1,5 @@
 import React from 'react';
-import './Additional.css';
-import {
-  Box,
-  Container,
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionPanel,
-  AccordionIcon,
-  Heading,
-  Text,
-} from '@chakra-ui/react';
+import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Heading, Text } from '@chakra-ui/react';
 
 const skillsHobbies = [
   {
@@ -64,11 +53,11 @@ const skillsHobbies = [
 ];
 
 const Additional = () => (
-  <Box id="skills-hobbies" w="100%" minH="100vh" d="flex" alignItems="center" justifyContent="center" bg="lightgray">
-    <Container maxW="container.md" textAlign="center">
-      <Heading as="h2" size="xl" mb={6}>
+  <Box id="skills-hobbies" py={8} alignItems="center" display="flex" flexDirection="column" justifyContent="center" width="100%" minHeight="100vh">
+    <Container maxW="container.md" textAlign="center" alignItems="center">
+      <Text fontSize="5xl" mb={6}>
         Skills & Hobbies
-      </Heading>
+      </Text>
       <Accordion allowToggle>
         {skillsHobbies.map((item, index) => (
           <AccordionItem key={index}>
