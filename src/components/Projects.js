@@ -75,7 +75,7 @@ const Projects = () => {
 
   return (
     <Box id="projects" position="relative" width="full" overflow="hidden" p={5} mx="auto" minHeight="100vh">
-      <Container maxW="container.md" textAlign="center">
+      <Container maxW="container.lg" textAlign="center">
         <Text fontSize="5xl" mb={6}>
           Projects
         </Text>

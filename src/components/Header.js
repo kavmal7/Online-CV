@@ -58,12 +58,12 @@ const Header = () => {
         zIndex="1000"
         boxShadow="sm"
       >
-        <Container maxW="container.lg">
+        <Container maxW="container.xl">
           <Flex h={16} alignItems="center" justifyContent="space-between">
-            <Text fontSize="xl" fontWeight="bold" textAlign="left" fontFamily="'Roboto Condensed', sans-serif">
-              My Portfolio
+            <Text fontSize="xl" fontWeight="bold" textAlign="left" ml={-10} fontFamily="'Roboto Condensed', sans-serif">
+              Kavya Malhotra
             </Text>
-            <HStack as="nav" spacing={4}>
+            <HStack as="nav" spacing={4} mr={-5}>
               {links.map((link) => (
                 <NavLink key={link.id} onClick={() => scrollToSection(link.id)}>
                   {link.name}
