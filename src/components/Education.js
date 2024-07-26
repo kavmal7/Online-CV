@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Container, Heading, Image, Text, VStack, HStack, Link, Divider } from '@chakra-ui/react';
+import imgTc from "./extra_files/ib.png";
+import pdfTc from "./extra_files/Results_from_Diploma_registry-1.pdf";
 
 const academicExperience = [
     {
@@ -8,7 +10,7 @@ const academicExperience = [
         year: '2021 - 2024',
         description: 'Completed various courses related to CS but with a focus on Data Science.',
         institutionUrl: 'https://www.uib.no/',
-        pdfUrl: './extra_files/Results_from_Diploma_registry-1.pdf',
+        pdfUrl: pdfTc,
         imgUrl: ''
     },
     {
@@ -18,7 +20,7 @@ const academicExperience = [
         description: 'Completed the IB Diploma in 2019, but retook some subjects to improve my grade.',
         institutionUrl: 'https://ibo.org/',
         pdfUrl: '',
-        imgUrl: './extra_files/ib.png'
+        imgUrl: imgTc
     },
     {
         institution: 'International School of Bergen',

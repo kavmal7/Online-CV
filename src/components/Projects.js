@@ -4,49 +4,57 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import { PrevArrow, NextArrow } from './Arrows';
+import imgTree from "./extra_files/image(1).png";
+import imgCV from "./extra_files/image(2).png";
+import imgNo from "./extra_files/image(3).png";
+import imgObd from "./extra_files/image(4).png";
+import imgNlp from "./extra_files/image(5).png";
+import imgGd from "./extra_files/image(7).png";
+import imgLd from "./extra_files/image(8).png";
+
 
 const projects = [
     {
       name: 'Online CV',
       description: 'An interactive online CV built with React and hosted on GitHub',
       githubUrl: 'https://github.com/kavmal7/Online-CV',
-      image: 'https://st2.depositphotos.com/3732989/5675/i/950/depositphotos_56750083-stock-photo-curriculum-vitae.jpg'
+      image: imgCV
     },
     {
       name: 'Decision Tree Algorithm',
       description: 'Decision Tree Classifier implemented manually using the ID3 algorithm',
       githubUrl: 'https://github.com/kavmal7/decision-tree',
-      image: 'https://storage.googleapis.com/algodailyrandomassets/curriculum/Data_Science/Getting%20to%20Know%20Decision%20Trees/decision_tree.png'
+      image: imgTree
     },
     {
       name: 'MNIST Pipeline',
       description: 'Data analysis and model creation based on the MNIST dataset',
       githubUrl: 'https://github.com/kavmal7/decision-tree',
-      image: 'https://datasets.activeloop.ai/wp-content/uploads/2019/12/MNIST-handwritten-digits-dataset-visualized-by-Activeloop.webp'
+      image: imgNo
     },
     {
       name: 'Manual Gradient Descent',
       description: 'Manual implementation of gradient descent in PyTorch',
       githubUrl: 'https://github.com/kavmal7/grad_descent',
-      image: 'https://poissonisfish.com/wp-content/uploads/2020/11/non-convex-optimization-we-utilize-stochastic-gradient-descent-to-find-a-local-optimum.jpg'
+      image: imgGd
     },
     {
         name: 'Object Localisation and Detection',
         description: 'Doing object localisation and object detection with convolutional neural networks',
         githubUrl: 'https://github.com/kavmal7/object-detection',
-        image: 'https://deeplobe.ai/wp-content/uploads/2023/06/Object-detection-Real-world-applications-and-benefits.png'
+        image: imgObd
     },
     {
         name: 'Sequence Models',
         description: 'Doing various NLP tasks with CBOW, Attention models, and RNNs',
         githubUrl: 'https://github.com/kavmal7/Sequence-models',
-        image: 'https://cdn-dniag.nitrocdn.com/xyKrOTmAYFMlBRVuQecFusUQCGhMeBRK/assets/images/optimized/rev-2997972/www.polymerhq.io/wp-content/uploads/2022/09/Using-Natural-Language-Processing-NLP-based-Sentiment-Analysis-for-Risk-Trading_Blog_Files.png'
+        image: imgNlp
     },
     {
         name: 'Lane Detection',
         description: 'Given a video of a car driving, make a model highlighting the lanes',
         githubUrl: 'https://github.com/kavmal7/Lane-detection',
-        image: 'https://liftkit.imgix.net/blog/az1001/images/featured-image-2970.jpg'
+        image: imgLd
     }
 ];
 
@@ -86,7 +94,7 @@ const Projects = () => {
                 {chunk.slice(0, 3).map((project, i) => (
                   <Card key={i} borderRadius="md" boxShadow="md" overflow="hidden">
                     <CardBody>
-                      <Image src={project.image} objectFit="cover" width="100%" height="80px" />
+                      <Image src={project.image} objectFit="cover" width="100%" height="80px"/>
                       <Heading noOfLines={3} fontSize="xl" mt={4} mb={2}>{project.name}</Heading>
                       <Text noOfLines={3} fontSize="sm">{project.description}</Text>
                     </CardBody>
