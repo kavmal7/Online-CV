@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Heading, Button, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Text } from '@chakra-ui/react';
 
+// Laying out data for the component
 const languages = [
     {
       name: 'English',
@@ -44,6 +45,7 @@ const languages = [
     }
 ];
 
+// Defining the component layout, using the same accordion div as for the skills and hobbies
 const Languages = () => (
   <Box id="languages" py={8} display="flex" flexDirection="column" alignItems="center" justifyContent="center" width="100%" minHeight="100vh">
     <Container maxW="container.md" textAlign="center" alignItems="center">

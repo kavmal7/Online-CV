@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Heading, Text } from '@chakra-ui/react';
 
+// Laying out data for the component
 const skillsHobbies = [
   {
     title: 'Python',
@@ -52,6 +53,7 @@ const skillsHobbies = [
   }
 ];
 
+// Defining component information using the Accordion dropdown div
 const Additional = () => (
   <Box id="skills-hobbies" py={8} alignItems="center" display="flex" flexDirection="column" justifyContent="center" width="100%" minHeight="100vh">
     <Container maxW="container.md" textAlign="center" alignItems="center">

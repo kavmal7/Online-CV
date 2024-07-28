@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container, Heading, Text, Flex, Image, Spacer } from '@chakra-ui/react';
 import logo from "./extra_files/logo-rounded.png";
 
+// Defining About component with title, image, and text block
 const About = () => (
   <Box id="about" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100vw">
     <Container id='about-section' maxW="container.xl" textAlign="center" alignItems="center">

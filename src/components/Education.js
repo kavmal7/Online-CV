@@ -3,6 +3,7 @@ import { Box, Container, Heading, Image, Text, VStack, HStack, Link, Divider } f
 import imgTc from "./extra_files/ib.png";
 import pdfTc from "./extra_files/Results_from_Diploma_registry-1.pdf";
 
+// Laying out data for the component
 const academicExperience = [
     {
         institution: 'University of Bergen',
@@ -33,6 +34,7 @@ const academicExperience = [
     }
 ]
 
+// Defining the component containing a column listing each institution and information
 const Education = () => (
     <Box id="education" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100%">
         <Container maxW="container.md" textAlign="center" alignItems="center">

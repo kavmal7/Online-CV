@@ -12,7 +12,7 @@ import imgNlp from "./extra_files/image(5).png";
 import imgGd from "./extra_files/image(7).png";
 import imgLd from "./extra_files/image(8).png";
 
-
+// Laying out data for the component
 const projects = [
     {
       name: 'Online CV',
@@ -58,6 +58,7 @@ const projects = [
     }
 ];
 
+// Defining the main component with data about the carousel's behaviour
 const Projects = () => {
   const settings = {
     dots: true,
@@ -70,6 +71,7 @@ const Projects = () => {
     prevArrow: <PrevArrow/>
   };
 
+  // Regulate page count
   const chunkArray = (array, chunkSize) => {
     let result = [];
     for (let i = 0; i < array.length; i += chunkSize) {

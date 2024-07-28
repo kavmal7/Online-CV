@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Heading, Text, VStack, HStack, Link, Divider } from '@chakra-ui/react';
 
+// Laying out data for the component
 const experiences = [
     {
         company: 'Indisk Emporium AS',
@@ -18,6 +19,7 @@ const experiences = [
     }
 ]
 
+// Defining the main component, mostly similar to the Education component
 const WorkExperience = () => (
   <Box id="work-experience" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100%">
     <Container maxW="container.md" textAlign="center" alignItems="center">

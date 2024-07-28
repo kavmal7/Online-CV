@@ -10,6 +10,7 @@ import Additional from './components/Additional';
 import Footer from './components/Footer';
 import './App.css';
 
+// Define alternating colour backgrounds for each component
 const sections = [
   { Component: About, className: 'blue-bg' },
   { Component: Education, className: 'white-bg' },
@@ -20,6 +21,7 @@ const sections = [
   { Component: Additional, className: 'blue-bg' },
 ];
 
+// Define the app function containing the components
 function App() {
   return (
     <div className="App">

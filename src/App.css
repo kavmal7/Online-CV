@@ -1,3 +1,4 @@
+/* Define background details */
 .white-bg {
   min-height: 100vh;
   display: flex;
@@ -9,26 +10,29 @@
 .blue-bg {
   min-height: 100vh;
   display: flex;
-  background-color: rgb(240, 248, 255); /* Very light blue */
+  background-color: rgb(240, 248, 255);
   padding: 2rem;
   box-sizing: border-box;
 }
 
+/* Define section details (where the components are located, minus the header and footer) */
 section {
-  min-height: 100vh; /* Ensure each section takes full viewport height */
+  min-height: 100vh;
   display: flex;
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  justify-content: center;
   margin-top: 0;
 }
 
+/* Define header details */
 header {
   position: fixed;
-  z-index: 1000; /* Ensure header is above other content */
+  z-index: 1000;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Define carousel details used in the projects section */
 .slick-prev,
 .slick-next {
   width: auto !important;

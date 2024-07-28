@@ -5,6 +5,7 @@ import linkedinLogo from './extra_files/In-White-128.png';
 import githubLogo from './extra_files/github-mark-white.png';
 import gitlabLogo from './extra_files/gitlab-logo-700.png';
 
+// Defining a black background footer containing e-mail and relevant links positioned horisontally
 const Footer = () => (
   <Box id="footer" bg="black" color="white" py={4} position="relative" bottom={0} width="100%" alignItems="center" display="flex" flexDirection="column" justifyContent="center">
     <Container maxW="container.md" textAlign="center" alignItems="center">

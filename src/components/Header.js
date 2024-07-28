@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Flex, Link, HStack, Text, Spacer, Container } from '@chakra-ui/react';
 
+// Defining function that scrolls to the top of each component, accounting for header offset
 const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -16,6 +17,7 @@ const scrollToSection = (id) => {
     }
 };
 
+// Defining the name to links (id) mappings
 const links = [
     { name: 'About', id: 'about' },
     { name: 'Education', id: 'education' },
@@ -27,6 +29,7 @@ const links = [
     { name: 'Footer', id: 'footer' }
 ];
 
+// Defining the clickable text links with a custom font
 const NavLink = ({ children, href, onClick }) => (
     <Link
       px={3}
@@ -43,7 +46,8 @@ const NavLink = ({ children, href, onClick }) => (
       {children}
     </Link>
 );
-  
+
+// Defining the main header component, where we merge all the above parts
 const Header = () => {
     return (
       <Box
