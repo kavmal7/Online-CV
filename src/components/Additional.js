@@ -5,15 +5,19 @@ import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPan
 const skillsHobbies = [
   {
     title: 'Python',
-    description: 'I have been coding in Python for several years, and forms the bulk of my experience. It has been especially useful for Data Science and ML, with frameworks such as NumPy, Pandas, and PyTorch.',
+    description: 'I have been coding in Python for several years, and forms the bulk of my experience. It has been especially useful for Data Science and Machine Learning, with frameworks such as NumPy, Pandas, and PyTorch.',
   },
   {
     title: 'Java',
-    description: 'I have had the opportunity to code in Java, where I have done some projects, among those being a game.',
+    description: 'I have had the opportunity to code in Java, where I have done some projects, among those being a game I made with others.',
   },
   {
     title: 'JavaScript, HTML & CSS',
     description: 'JavaScript, HTML, and CSS have been crucial for my work during web development, whether professionally or for personal projects, like this website.',
+  },
+  {
+    title: 'SQL',
+    description: 'I have been able to use SQL academically, but also professionally to an extent. It has been useful for gathering and managing data at my current company.',
   },
   {
     title: 'C',
@@ -29,15 +33,15 @@ const skillsHobbies = [
   },
   {
     title: 'Social Media Management',
-    description: 'I have also helped manage the Facebook social media account of my current company, where we advertise and promote our products.',
+    description: 'I have helped manage the Facebook social media account of my current company, where we advertise and promote our products.',
   },
   {
     title: 'Football',
-    description: 'I enjoy playing and watching Football, which I have been doing since childhood.'
+    description: 'I enjoy playing and watching Football (Soccer), which I have been doing since childhood. It is helpful physically but understanding the tactical side also helps train one\'s brain.'
   },
   {
     title: 'Cars',
-    description: 'I have been fascinated by cars since I was a child. I also enjoy motorsports such as Formula 1 and Endurance Racing.'
+    description: 'I have been fascinated by cars since I was a child. I also enjoy motorsports such as Formula 1 and Endurance Racing, where one can learn a lot technically and strategically.'
   },
   {
     title: 'Health & Fitness',
@@ -45,11 +49,11 @@ const skillsHobbies = [
   },
   {
     title: 'Gaming',
-    description: 'Perhaps like most people my age, I enjoy gaming. I have played a wide range of games, from single player to multiplayer, both on PlayStation and PC.'
+    description: 'Perhaps like most people my age, I enjoy gaming. I have played a wide range of games, from single player to multiplayer, both on PlayStation and PC. While playing a lot is excessive, gaming does involve lots of thinking, improves hand-eye coordination, and much more.'
   },
   {
     title: 'Reading',
-    description: 'I have been reading books from a young age. In particular, I like reading science-based or fact books, but I have also read fiction books.'
+    description: 'I have been reading books from a young age. In particular, I like reading science-based or fact books such as encyclopedias, but I have also read various fiction books.'
   }
 ];
 

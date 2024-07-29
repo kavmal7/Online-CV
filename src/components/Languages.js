@@ -14,9 +14,19 @@ const languages = [
       description: 'Being raised in Norway, I am able to fluently speak Norwegian both casually and professionally.'
     },
     {
+      name: 'Other Scandinavian Languages',
+      proficiency: 'Relative fluency',
+      description: 'Due to their proximity to Norwegian, I can somewhat understand Danish and Swedish. Written Danish is very easy to understand, but spoken Danish is not as easy. Spoken Swedish is more understandable, while the writing can be less legible (but still somewhat understandable).'
+    },
+    {
       name: 'Hindi',
       proficiency: 'Fluent (mother tongue)',
       description: 'Having grown up in a family that speaks Hindi, I was able to pick it up as my mother tongue.'
+    },
+    {
+      name: 'Urdu',
+      proficiency: 'Fluency in speech',
+      description: 'Due to its high level of similarity with Hindi, I am able to understand and hold conversation with an Urdu speaker.'
     },
     {
       name: 'French',

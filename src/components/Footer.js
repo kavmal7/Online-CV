@@ -12,13 +12,13 @@ const Footer = () => (
       <Text mb={4}>Contact me: kavyamal74@gmail.com</Text>
       <HStack spacing={6} justify="center">
         <Link href="https://www.linkedin.com/in/kavya-malhotra" isExternal>
-          <Image src={linkedinLogo} alt="LinkedIn" boxSize="30px" />
+          <Image src={linkedinLogo} alt="LinkedIn" boxSize="30px"/>
         </Link>
         <Link href="https://github.com/kavmal7" isExternal>
-          <Image src={githubLogo} alt="GitHub" boxSize="30px" />
+          <Image src={githubLogo} alt="GitHub" boxSize="30px"/>
         </Link>
         <Link href="https://git.app.uib.no/Kavya.Malhotra" isExternal>
-          <Image src={gitlabLogo} alt="GitLab" boxSize="30px" />
+          <Image src={gitlabLogo} alt="GitLab" boxSize="30px"/>
         </Link>
       </HStack>
     </Container>
