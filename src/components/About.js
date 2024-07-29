@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Heading, Text, Flex, Image, Spacer } from '@chakra-ui/react';
+import { Box, Container, Text, Flex, Image } from '@chakra-ui/react';
 import logo from "./extra_files/logo-rounded.png";
 
 // Defining About component with title, image, and text block

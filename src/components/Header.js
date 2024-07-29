@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Link, HStack, Text, Spacer, Container } from '@chakra-ui/react';
+import { Box, Flex, Link, HStack, Text, Container } from '@chakra-ui/react';
 
 // Defining function that scrolls to the top of each component, accounting for header offset
 const scrollToSection = (id) => {

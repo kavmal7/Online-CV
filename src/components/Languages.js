@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Heading, Button, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Text } from '@chakra-ui/react';
+import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Text } from '@chakra-ui/react';
 
 // Laying out data for the component
 const languages = [

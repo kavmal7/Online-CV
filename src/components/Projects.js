@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Container, Box, Image, Text, Link, Grid, VStack, Card, CardBody, CardFooter, Heading, Button } from '@chakra-ui/react';
+import { Container, Box, Image, Text, Link, Grid, Card, CardBody, CardFooter, Heading, Button } from '@chakra-ui/react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
@@ -29,7 +29,7 @@ const projects = [
     {
       name: 'MNIST Pipeline',
       description: 'Data analysis and model creation based on the MNIST dataset',
-      githubUrl: 'https://github.com/kavmal7/decision-tree',
+      githubUrl: 'https://github.com/kavmal7/MNIST-model',
       image: imgNo
     },
     {

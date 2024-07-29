@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Heading, Text, VStack, HStack, Link, Divider, SimpleGrid } from '@chakra-ui/react';
+import { Box, Container, Text, VStack, Link, Divider, SimpleGrid } from '@chakra-ui/react';
 
 // Laying out data for the component
 const certificates = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon, IconButton } from '@chakra-ui/react';
+import { IconButton } from '@chakra-ui/react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 
 // Defining arrow styles for the carousel in the Projects component, with defined shapes and colours
