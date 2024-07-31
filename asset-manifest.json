@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Online-CV/static/css/main.6ae7e255.css",
+    "main.js": "/Online-CV/static/js/main.05ecd055.js",
+    "static/js/453.00aa608d.chunk.js": "/Online-CV/static/js/453.00aa608d.chunk.js",
+    "static/media/image(1).png": "/Online-CV/static/media/image(1).7a7f16f9ff79007f83be.png",
+    "static/media/image(5).png": "/Online-CV/static/media/image(5).02fca9d864072b0ad3b5.png",
+    "static/media/image(2).png": "/Online-CV/static/media/image(2).0a0dff5fe4857c8094af.png",
+    "static/media/image(8).png": "/Online-CV/static/media/image(8).9af770a65fc046bae38e.png",
+    "static/media/image(7).png": "/Online-CV/static/media/image(7).f1d13ae312db167f37df.png",
+    "static/media/logo-rounded.png": "/Online-CV/static/media/logo-rounded.68a0b72c9c6c55314cc1.png",
+    "static/media/image(4).png": "/Online-CV/static/media/image(4).9626d194586c97db0071.png",
+    "static/media/image(3).png": "/Online-CV/static/media/image(3).88624966bce2272c751f.png",
+    "static/media/slick.svg": "/Online-CV/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Online-CV/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Online-CV/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Online-CV/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Online-CV/index.html",
+    "main.6ae7e255.css.map": "/Online-CV/static/css/main.6ae7e255.css.map",
+    "main.05ecd055.js.map": "/Online-CV/static/js/main.05ecd055.js.map",
+    "453.00aa608d.chunk.js.map": "/Online-CV/static/js/453.00aa608d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ae7e255.css",
+    "static/js/main.05ecd055.js"
+  ]
+}
