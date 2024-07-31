@@ -16,7 +16,7 @@ const languages = [
     {
       name: 'Other Scandinavian Languages',
       proficiency: 'Relative fluency',
-      description: 'Due to their proximity to Norwegian, I can somewhat understand Danish and Swedish. Written Danish is very easy to understand, but spoken Danish is not as easy. Spoken Swedish is more understandable, while the writing can be less legible (but still somewhat understandable).'
+      description: 'Due to their proximity to Norwegian, I can largely understand Danish and Swedish.'
     },
     {
       name: 'Hindi',
@@ -36,7 +36,7 @@ const languages = [
     {
       name: 'Punjabi',
       proficiency: 'Comprehensive',
-      description: 'As part of my family speaks Punjabi, I have somewhat picked it up and can understand basic conversation.'
+      description: 'As part of my family speaks Punjabi, I have picked it up and can understand basic conversation.'
     },
     {
       name: 'Japanese',
@@ -46,7 +46,7 @@ const languages = [
     {
       name: 'Polish',
       proficiency: 'Rudimentary',
-      description: 'Having been to Poland 3 times before, I was able to pick up some basic phrases, but can also read and pronounce the text to an extent.'
+      description: 'Having been to Poland 3 times, I was able to pick up some basic phrases, but can also read and pronounce the text to an extent.'
     },
     {
       name: 'Cyrillic alphabet',
