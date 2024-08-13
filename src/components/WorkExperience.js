@@ -12,9 +12,9 @@ const experiences = [
     },
     {
         company: 'Indisk Emporium AS',
-        role: 'Web developer',
+        role: 'eveloper',
         year: '2020 - Present',
-        details: 'My responsibilities here consist of assisting in development of the company\'s website and keeping up with all the new features and updates of Wix, a cloud-based web development service. I have been able to apply my knowledge of HTML, JavaScript, and SQL variants in this realm, along with other mainstream programming languages.',
+        details: 'My responsibilities here consist of assisting in a lot of the computational side of the business. This includes the company\'s website and keeping up with all the new features and updates of Wix, a cloud-based web development service. Besides this, I also help manage the database of the products and services of the business, as well as data gathering and analysis (Data Science) for future planning.',
         companyUrl: 'https://www.indiske.com/'
     }
 ]

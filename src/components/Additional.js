@@ -17,7 +17,7 @@ const skillsHobbies = [
   },
   {
     title: 'SQL',
-    description: 'I have been able to use SQL academically, but also professionally to an extent. It has been useful for gathering and managing data at my current company.',
+    description: 'I have been able to learn and use SQL (and other variants such as PostgreSQL) academically, but also professionally. It has been useful for gathering and managing data at my current company.',
   },
   {
     title: 'C',
