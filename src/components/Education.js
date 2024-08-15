@@ -7,21 +7,21 @@ const academicExperience = [
         institution: 'University of Bergen',
         degree: 'B.Sc. Data Science',
         year: '2021 - 2024',
-        description: 'Completed various courses related to CS but with a focus on Data Science.',
+        description: 'Completed various courses related to CS but with a focus on Data Science. During this time, I also did extracurriculars such as joining the CS group, where I occasionally went to for assistance or assisting others, apart from special events.',
         institutionUrl: 'https://www.uib.no/'
     },
     {
         institution: 'International Baccalaureate',
         degree: 'IB Diploma',
         year: '2017 - 2019 (excluding retakes)',
-        description: 'Completed the IB Diploma in 2019, but retook some subjects to improve my grade.',
+        description: 'Completed the IB Diploma in 2019, but retook some subjects to improve my grade. The lessons I learned here were invaluable for my development.',
         institutionUrl: 'https://ibo.org/'
     },
     {
         institution: 'International School of Bergen',
         degree: 'PYP and MYP completion',
         year: '2009 - 2017',
-        description: 'Completed IBO\'s Primary Years Programme (PYP) and the Middle Years Programme (MYP) at this institution.',
+        description: 'Completed IBO\'s Primary Years Programme (PYP) and the Middle Years Programme (MYP) at this institution. The main use of English here really honed my English capabilities.',
         institutionUrl: 'https://www.isbergen.no/'
     }
 ]
