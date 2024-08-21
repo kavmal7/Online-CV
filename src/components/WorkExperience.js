@@ -16,6 +16,13 @@ const experiences = [
         year: '2020 - Present',
         details: 'My responsibilities here consist of assisting in a lot of the computational side of the business. This includes the company\'s website and keeping up with all the new features and updates of Wix, a cloud-based web development service. Besides this, I also help manage the database of the products and services of the business, as well as data gathering and analysis (Data Science) for future planning.',
         companyUrl: 'https://www.indiske.com/'
+    },
+    {
+        company: 'Digiscreens Project',
+        role: 'Developer',
+        year: '2023',
+        details: 'This was a collaborative group project with the client on how the streaming of films and TV series contributes to the transformation of social and cultural dynamics in Europe. The project examines film and TV distribution, reception, and representation in the light of the last decades\' demands for increased diversity and inclusivity on screen. My role mostly involved code-related tasks with the data, which included the creation of plots, functions (along with tests), and a website to display this information. I also took part in communicating with various streaming providers about data requests early on.',
+        companyUrl: 'https://www.uib.no/en/digiscreens'
     }
 ]
 
