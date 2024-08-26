@@ -56,6 +56,12 @@ const certificates = [
         institution: 'Codecademy',
         skills: 'Natural Language Processing',
         certificateUrl: 'https://www.codecademy.com/profiles/kavmal74765058484/certificates/3e67b57aafb07ef7221c3051a23ff2ca'
+    },
+    {
+        name: 'Introduction to Responsible AI',
+        institution: 'Google',
+        skills: 'Artificial Intelligence, Ethics',
+        certificateUrl: 'https://www.cloudskillsboost.google/public_profiles/9193f50b-2699-492e-9d8b-26a6a9c0782d/badges/10876991'
     }
 ]
 
