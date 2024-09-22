@@ -62,6 +62,12 @@ const certificates = [
         institution: 'Google',
         skills: 'Artificial Intelligence, Ethics',
         certificateUrl: 'https://www.cloudskillsboost.google/public_profiles/9193f50b-2699-492e-9d8b-26a6a9c0782d/badges/10876991'
+    },
+    {
+        name: 'Introduction to Image Generation',
+        institution: 'Google',
+        skills: 'Artificial Intelligence, Image Processing & Generation',
+        certificateUrl: 'https://www.cloudskillsboost.google/public_profiles/9193f50b-2699-492e-9d8b-26a6a9c0782d/badges/11589220'
     }
 ]
 

@@ -21,8 +21,8 @@ const projects = [
       image: imgCV
     },
     {
-      name: 'Decision Tree Algorithm',
-      description: 'Decision Tree Classifier implemented manually using the ID3 algorithm',
+      name: 'Decision Tree & Random Forest Algorithm',
+      description: 'Decision Tree Classifier implemented manually using the ID3 algorithm, further expanded to Random Forest Classifier.',
       githubUrl: 'https://github.com/kavmal7/decision-tree',
       image: imgTree
     },
