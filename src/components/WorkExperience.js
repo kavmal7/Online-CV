@@ -23,6 +23,13 @@ const experiences = [
         year: '2023',
         details: 'This was a collaborative group project with the client on how the streaming of films and TV series contributes to the transformation of social and cultural dynamics in Europe. The project examines film and TV distribution, reception, and representation in the light of the last decades\' demands for increased diversity and inclusivity on screen. My role mostly involved code-related tasks with the data, which included the creation of plots, functions (along with tests), and a website to display this information. I also took part in communicating with various streaming providers about data requests early on.',
         companyUrl: 'https://www.uib.no/en/digiscreens'
+    },
+    {
+      company: 'VOGUE International',
+      role: 'Assistant developer (part time)',
+      year: '2023 - Present',
+      details: 'I have been working with people at this company not only to organise importing of goods to my current company, but have also assisted in optimising exporting software and document management.',
+      companyUrl: ''
     }
 ]
 
