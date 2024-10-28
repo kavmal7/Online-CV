@@ -13,7 +13,7 @@ const experiences = [
     {
         company: 'Indisk Emporium AS',
         role: 'Developer',
-        year: '2020 - Present',
+        year: '2021 - Present',
         details: 'My responsibilities here consist of assisting in a lot of the computational side of the business. This includes the company\'s website and keeping up with all the new features and updates of Wix, a cloud-based web development service. Besides this, I also help manage the database of the products and services of the business, as well as data gathering and analysis (Data Science) for future planning.',
         companyUrl: 'https://www.indiske.com/'
     },
@@ -25,8 +25,8 @@ const experiences = [
         companyUrl: 'https://www.uib.no/en/digiscreens'
     },
     {
-      company: 'VOGUE International (export company based in India)',
-      role: 'Assistant developer (part time)',
+      company: 'Vogue International (export company based in India)',
+      role: 'Junior developer (unpaid internship)',
       year: '2023 - Present',
       details: 'I have been working with people at this company not only to organise importing of goods to my current company, but have also assisted in optimising exporting software and document management.',
     }
