@@ -54,6 +54,10 @@ const skillsHobbies = [
   {
     title: 'Reading',
     description: 'I have been reading books from a young age. In particular, I like reading science-based or fact books such as encyclopedias, but I have also read various fiction books.'
+  },
+  {
+    title: 'Astronomy',
+    description: 'From a young age, I have been very interested in astronomy. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in the topic, from reading books, watching shows and documentaries, and even owning a telescope at home.'
   }
 ];
 
