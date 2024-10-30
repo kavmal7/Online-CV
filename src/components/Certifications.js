@@ -93,6 +93,9 @@ const Certifications = () => (
             </Box>
             ))}
       </SimpleGrid>
+        <Text fontSize="md" color="gray.500" mt={10}>
+          Warning: This is not an exhaustive list of all my online courses, as some courses don't offer certificates.
+        </Text>
       </Container>
     </Box>
   );
