@@ -27,7 +27,7 @@ const experiences = [
     {
       company: 'Vogue International (export company based in India)',
       role: 'Junior developer (unpaid internship)',
-      year: '2023 - Present',
+      year: '2024 - Present',
       details: 'I have been working with people at this company not only to organise importing of goods to my current company, but have also assisted in optimising exporting software and document management.',
     }
 ]
