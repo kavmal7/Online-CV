@@ -94,7 +94,7 @@ const Certifications = () => (
             ))}
       </SimpleGrid>
         <Text fontSize="md" color="gray.500" mt={10}>
-          Warning: This is not an exhaustive list of all my online courses, as some courses don't offer certificates.
+          Warning: This is not an exhaustive list of all my online courses, as some courses either don't offer certificates, or one needs to pay for them.
         </Text>
       </Container>
     </Box>
