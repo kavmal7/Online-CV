@@ -11,7 +11,7 @@ const academicExperience = [
         institutionUrl: 'https://www.uib.no/'
     },
     {
-        institution: 'International Baccalaureate',
+        institution: 'International Baccalaureate (Bergen Katedralskole)',
         degree: 'IB Diploma',
         year: '2017 - 2019 (excluding retakes)',
         description: 'Completed the IB Diploma in 2019, but retook some subjects to improve my grade. The lessons I learned here were invaluable for my development.',
