@@ -16,7 +16,7 @@ import imgLd from "./extra_files/image(8).png";
 const projects = [
     {
       name: 'Online CV',
-      description: 'An interactive online CV built with React and hosted on GitHub',
+      description: 'An interactive online CV (what you\'re reading now) built with React and hosted on GitHub',
       githubUrl: 'https://github.com/kavmal7/Online-CV',
       image: imgCV
     },
