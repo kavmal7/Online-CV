@@ -6,14 +6,14 @@ const experiences = [
     {
         company: 'Indisk Emporium AS',
         role: 'Retail worker',
-        year: '2017 - Present',
+        year: '2017 - 2025',
         details: 'My responsibilities here involved a large degree of customer management which consisted of communicating with the customers and assisting them with any issue. The role helped me vastly in developing communicating skills, making me open and approachable.',
         companyUrl: 'https://www.indiske.com/'
     },
     {
         company: 'Indisk Emporium AS',
         role: 'Developer',
-        year: '2021 - Present',
+        year: '2021 - 2025',
         details: 'My responsibilities here consist of assisting in a lot of the computational side of the business. This includes the company\'s website and keeping up with all the new features and updates of Wix, a cloud-based web development service. Besides this, I also help manage the database of the products and services of the business, as well as data gathering and analysis (Data Science) for future planning.',
         companyUrl: 'https://www.indiske.com/'
     },
@@ -27,8 +27,14 @@ const experiences = [
     {
       company: 'Vogue International (export company based in India)',
       role: 'Junior developer (unpaid internship)',
-      year: '2024 - Present',
+      year: '2024 - 2025',
       details: 'I have been working with people at this company not only to organise importing of goods to my current company, but have also assisted in optimising exporting software and document management.',
+    },
+    {
+      company: 'DNB',
+      role: 'Developer (intern)',
+      year: '2025',
+      details: 'This is an IT intern role at Norway\'s largest bank. Here, I will employ several tools and techniques, including those from Data Science, Machine Learning, AI, Programming, and Cloud Computing, among others.',
     }
 ]
 
