@@ -34,7 +34,7 @@ const experiences = [
       company: 'DNB',
       role: 'Developer (intern)',
       year: '2025',
-      details: 'This is an IT intern role at Norway\'s largest bank. Here, I will employ several tools and techniques, including those from Data Science, Machine Learning, AI, Programming, and Cloud Computing, among others.',
+      details: 'This is an IT intern role at one of Norway\'s largest banks. Here, I worked with the Emerging Technologies team, where we worked on AI tools and solutions. This has enabled me to apply skills from Data Science, Machine Learning, AI, Programming, and Cloud Computing, among others. This has been significantly different from past experiences, but the challenges have been engaging and I am learning a lot.',
     }
 ]
 
