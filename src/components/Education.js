@@ -4,6 +4,13 @@ import { Box, Container, Text, VStack, HStack, Link, Divider } from '@chakra-ui/
 // Laying out data for the component
 const academicExperience = [
     {
+        institution: 'University College London',
+        degree: 'M.Sc. Data Science and Machine Learning',
+        year: '2025 - 2026',
+        description: 'Taking the next step at a globally prestigious university, complementing and furthering my experiences during my bachelor\'s degree (particularly in the field of computing). Have joined societies related to my interests here too.',
+        institutionUrl: 'https://www.ucl.ac.uk/'
+    },
+    {
         institution: 'University of Bergen',
         degree: 'B.Sc. Data Science',
         year: '2021 - 2024',
