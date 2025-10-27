@@ -28,6 +28,10 @@ const skillsHobbies = [
     description: 'I have also coded in MATLAB, mostly in academic scenarios (chiefly during my visual computing course), which was useful for my development in Data Science.',
   },
   {
+    title: 'Microsoft Azure',
+    description: 'I have been able to learn about and use Microsoft Azure at my recent internship. I used it as part of storage and the use of AI agents.',
+  },
+  {
     title: 'Spreadsheet',
     description: 'I have been using spreadsheets mostly at my work, which has been important for tracking products, pricing, or other variables.'
   },
@@ -57,7 +61,11 @@ const skillsHobbies = [
   },
   {
     title: 'Astronomy',
-    description: 'From a young age, I have been very interested in astronomy. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in the topic, from reading books, watching shows and documentaries, and even owning a telescope at home.'
+    description: 'From a young age, I have been very interested in astronomy. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in the topic, from reading books, watching shows and documentaries, and even owning a telescope at home. Moreover, I am looking to join the Space Society at my current university.'
+  },
+  {
+    title: 'Artificial Intelligence',
+    description: 'I have been into AI for a while, seeing the breakneck pace of recent developments and even before that, which is what drove me to take the degrees that I took. I am also looking to join the AI Society at my current university.',
   }
 ];
 
