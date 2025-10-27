@@ -61,11 +61,11 @@ const skillsHobbies = [
   },
   {
     title: 'Astronomy',
-    description: 'From a young age, I have been very interested in astronomy. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in the topic, from reading books, watching shows and documentaries, and even owning a telescope at home. Moreover, I am looking to join the Space Society at my current university.'
+    description: 'From a young age, I have been very interested in astronomy. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in the topic, from reading books, watching shows and documentaries, and even owning a telescope at home. Moreover, I have joined the Space Society at my current university.'
   },
   {
     title: 'Artificial Intelligence',
-    description: 'I have been into AI for a while, seeing the breakneck pace of recent developments and even before that, which is what drove me to take the degrees that I took. I am also looking to join the AI Society at my current university.',
+    description: 'I have been into AI for a while, seeing the breakneck pace of recent developments and even before that, which is what drove me to take the degrees that I took. I have also joined the AI Society at my current university.',
   }
 ];
 
