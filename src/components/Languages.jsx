@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Text } from '@chakra-ui/react';
+import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
+import SectionHeading from './SectionHeading';
 
 // Laying out data for the component
 const languages = [
@@ -57,22 +57,20 @@ const languages = [
 
 // Defining the component layout, using the same accordion div as for the skills and hobbies
 const Languages = () => (
-  <Box id="languages" py={8} display="flex" flexDirection="column" alignItems="center" justifyContent="center" width="100%" minHeight="100vh">
-    <Container maxW="container.md" textAlign="center" alignItems="center">
-      <Text fontSize="5xl" mb={6}>
-        Languages
-      </Text>
+  <Box py={{ base: 8, md: 12 }} width="full">
+    <Container maxW="container.md" textAlign="center">
+      <SectionHeading>Languages</SectionHeading>
       <Accordion allowToggle>
-        {languages.map((language, index) => (
-          <AccordionItem key={index}>
-            <h2>
+        {languages.map((language) => (
+          <AccordionItem key={language.name}>
+            <h3>
               <AccordionButton>
                 <Box flex="1" textAlign="left">
                   {language.name} ({language.proficiency})
                 </Box>
                 <AccordionIcon/>
               </AccordionButton>
-            </h2>
+            </h3>
             <AccordionPanel pb={4}>
               {language.description}
             </AccordionPanel>

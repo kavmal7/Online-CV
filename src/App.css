@@ -1,38 +1,28 @@
-/* Define background details */
-.white-bg {
-  min-height: 100vh;
+.App main {
+  padding-top: 4rem;
+}
+
+section {
+  min-height: calc(100vh - 4rem);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(1rem, 4vw, 2rem);
+  scroll-margin-top: 4rem;
+}
+
+.white-bg {
   background-color: white;
-  padding: 2rem;
-  box-sizing: border-box;
 }
 
 .blue-bg {
-  min-height: 100vh;
-  display: flex;
   background-color: rgb(240, 248, 255);
-  padding: 2rem;
-  box-sizing: border-box;
 }
 
-/* Define section details (where the components are located, minus the header and footer) */
-section {
-  min-height: 100vh;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  margin-top: 0;
+#footer {
+  scroll-margin-top: 4rem;
 }
 
-/* Define header details */
-header {
-  position: fixed;
-  z-index: 1000;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Define carousel details used in the projects section */
 .slick-prev,
 .slick-next {
   width: auto !important;
@@ -44,16 +34,14 @@ header {
   display: none;
 }
 
-.slick-slide {
+.slick-track {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: "1400px";
-  box-sizing: border-box;
 }
 
-.slide-content {
-  width: 90%; 
+.slick-slide {
+  height: inherit;
+}
+
+.slick-slide > div {
   height: 100%;
-  overflow: hidden;
 }

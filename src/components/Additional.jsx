@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Text } from '@chakra-ui/react';
+import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
+import SectionHeading from './SectionHeading';
 
 // Laying out data for the component
 const skillsHobbies = [
@@ -49,7 +49,7 @@ const skillsHobbies = [
   },
   {
     title: 'Health & Fitness',
-    description: 'I regularly train at my local gym at least 4 times a week. This helps me build up my fitness and is helpful mentally too.'
+    description: 'I regularly train at my local gym at least 4 times a week. This helps me build up my fitness and is helpful mentally too. I also enjoy hiking a lot, and have also joined the hiking society at my current university.'
   },
   {
     title: 'Gaming',
@@ -60,8 +60,8 @@ const skillsHobbies = [
     description: 'I have been reading books from a young age. In particular, I like reading science-based or fact books such as encyclopedias, but I have also read various fiction books.'
   },
   {
-    title: 'Astronomy',
-    description: 'From a young age, I have been very interested in astronomy. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in the topic, from reading books, watching shows and documentaries, and even owning a telescope at home. Moreover, I have joined the Space Society at my current university.'
+    title: 'Science',
+    description: 'From a young age, I have been very interested in science. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in various scientific fields, from reading books, watching shows and documentaries, and even owning a telescope at home. Moreover, I have joined the Space Society at my current university and continue to read books related to Science.'
   },
   {
     title: 'Artificial Intelligence',
@@ -71,22 +71,20 @@ const skillsHobbies = [
 
 // Defining component information using the Accordion dropdown div
 const Additional = () => (
-  <Box id="skills-hobbies" py={8} alignItems="center" display="flex" flexDirection="column" justifyContent="center" width="100%" minHeight="100vh">
-    <Container maxW="container.md" textAlign="center" alignItems="center">
-      <Text fontSize="5xl" mb={6}>
-        Skills & Hobbies
-      </Text>
+  <Box py={{ base: 8, md: 12 }} width="full">
+    <Container maxW="container.md" textAlign="center">
+      <SectionHeading>Skills &amp; Hobbies</SectionHeading>
       <Accordion allowToggle>
-        {skillsHobbies.map((item, index) => (
-          <AccordionItem key={index}>
-            <h2>
+        {skillsHobbies.map((item) => (
+          <AccordionItem key={item.title}>
+            <h3>
               <AccordionButton>
                 <Box flex="1" textAlign="left">
                   {item.title}
                 </Box>
                 <AccordionIcon/>
               </AccordionButton>
-            </h2>
+            </h3>
             <AccordionPanel pb={4}>
               {item.description}
             </AccordionPanel>

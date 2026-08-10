@@ -1,20 +1,29 @@
-import React from 'react';
 import { Box, Container, Text, Flex, Image } from '@chakra-ui/react';
-import logo from "./extra_files/logo-rounded.png";
+import SectionHeading from './SectionHeading';
+import logo from './extra_files/profile-logo.png';
 
 // Defining About component with title, image, and text block
 const About = () => (
-  <Box id="about" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100vw">
-    <Container id='about-section' maxW="container.xl" textAlign="center" alignItems="center">
-      <Text fontSize="5xl" mb={4} mt={4}>
-        About Me
-      </Text>
-        <Flex>
-            <Box flex="1" mr={10}>
-                <Image src={logo} alt="About Me" boxSize="500px" borderRadius="15px"/>
+  <Box py={{ base: 8, md: 12 }} width="full">
+    <Container maxW="container.xl">
+      <SectionHeading>About Me</SectionHeading>
+        <Flex
+          direction={{ base: 'column', lg: 'row' }}
+          gap={{ base: 8, lg: 12 }}
+          align="center"
+        >
+            <Box flex="1" width="full" maxW={{ base: '320px', md: '420px' }}>
+                <Image
+                  src={logo}
+                  alt="Kavya Malhotra"
+                  width="full"
+                  aspectRatio={4 / 3}
+                  objectFit="cover"
+                  borderRadius="15px"
+                />
             </Box>
-            
-            <Box flex="2" textAlign="justify" ml={12} width="60%">
+
+            <Box flex="2" textAlign="left" width="full">
                 <Text fontSize="lg" mb={4}>
                     Hi, my name is Kavya Malhotra and welcome to my online CV. I am a graduate in Data Science with experience in retail and development. My experiences in my professional work and group projects during my studies have helped me become a good communicator and team player, working with people from many parts of the world.
                 </Text>
@@ -27,7 +36,7 @@ const About = () => (
                 <Text fontSize="lg" mb={4}>
                     In addition to the aforementioned, I am able to speak multiple languages. I am fluent in English, Norwegian (and therefore can also understand Swedish and Danish to a good extent), and Hindi, but also have limited understanding of other languages such as French.
                 </Text>
-            </Box>   
+            </Box>
         </Flex>
     </Container>
   </Box>

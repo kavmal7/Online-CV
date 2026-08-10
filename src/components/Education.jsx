@@ -1,5 +1,5 @@
-import React from 'react';
 import { Box, Container, Text, VStack, HStack, Link, Divider } from '@chakra-ui/react';
+import SectionHeading from './SectionHeading';
 
 // Laying out data for the component
 const academicExperience = [
@@ -35,14 +35,12 @@ const academicExperience = [
 
 // Defining the component containing a column listing each institution and information
 const Education = () => (
-    <Box id="education" py={8} minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" width="100%">
-        <Container maxW="container.md" textAlign="center" alignItems="center">
-        <Text fontSize="5xl" mb={6}>
-          Education
-        </Text>
+    <Box py={{ base: 8, md: 12 }} width="full">
+        <Container maxW="container.md" textAlign="center">
+        <SectionHeading>Education</SectionHeading>
         <VStack spacing={8} align="stretch">
           {academicExperience.map((item, index) => (
-            <Box key={index} mb={8}>
+            <Box key={`${item.institution}-${item.degree}`} mb={8}>
               <HStack spacing={6} align="start">
                 <Box textAlign="left">
                   <Text fontWeight="bold" fontSize="lg">{item.degree}</Text>

@@ -1,5 +1,5 @@
-import React from 'react';
 import { Box, Container, Text, VStack, Link, Divider, SimpleGrid } from '@chakra-ui/react';
+import SectionHeading from './SectionHeading';
 
 // Laying out data for the component
 const certificates = [
@@ -73,14 +73,12 @@ const certificates = [
 
 // Defining the component in a two-column grid format
 const Certifications = () => (
-    <Box id="certifications" py={8} minHeight="100vh">
+    <Box py={{ base: 8, md: 12 }} width="full">
       <Container maxW="container.md" textAlign="center">
-        <Text fontSize="5xl" mb={6}>
-            Certificates
-        </Text>
+        <SectionHeading>Certificates</SectionHeading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
             {certificates.map((cert, index) => (
-            <Box key={index}>
+            <Box key={cert.certificateUrl}>
                 <VStack spacing={4} align="stretch">
                 <Box textAlign="left">
                     <Text fontWeight="bold" fontSize="lg">{cert.name}</Text>
