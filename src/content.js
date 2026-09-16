@@ -84,7 +84,7 @@ export const content = {
     description: 'Kavya Malhotra - datavitenskap og maskinlæring ved UCL. Forskning på KI med verktøystøtte, flerspråklig resonnering og åpen læring.',
     skip: 'Hopp til innhold', navigation: 'Hovedmeny', languageLabel: 'Språk',
     openMenu: 'Åpne meny', closeMenu: 'Lukk meny',
-    nav: ['Prosjekter', 'Erfaring', 'Utdanning', 'Kompetanse', 'Kontakt'],
+    nav: ['Prosjekter', 'Erfaring', 'Utdanning', 'Ferdigheter', 'Kontakt'],
     hero: {
       eyebrow: 'Datavitenskap · Maskinlæring',
       intro: [
@@ -144,7 +144,7 @@ export const content = {
       note: 'Referanser og karakterutskrifter er tilgjengelige på forespørsel.',
     },
     skills: {
-      title: 'Kompetanse og interesser',
+      title: 'Ferdigheter og interesser',
       groups: [
         { title: 'KI og maskinlæring', text: 'PyTorch, JAX, Hugging Face, vLLM, NLP, dyp læring, forsterkningslæring, RAG og evaluering av språkmodeller.' },
         { title: 'Programmering og infrastruktur', text: 'Python, Java, JavaScript, HTML, CSS, SQL, C, MATLAB, Git, Microsoft Azure, Linux og Jupyter.' },
