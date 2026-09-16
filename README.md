@@ -47,7 +47,7 @@ Content was adapted from the supplied research and industry CVs. The dissertatio
 
 ## Visual assets and sharing
 
-The supplied blue KM logo is cropped and stored in `public/km-logo.png`, with its neutral exterior made transparent. Its geometry, blue gradient, and navy strokes are retained; no AI image generation was used. The favicon and app icons use the same mark. Project illustrations are simple HTML/CSS method diagrams, not AI-generated images or measured result plots.
+The supplied blue KM logo is cropped and stored in `public/km-logo.png`, with its neutral exterior made transparent. Its geometry, blue gradient, and navy strokes are retained; no AI image generation was used. The favicon (`public/km-favicon.png`) and app icons use the same mark. The tab icon has a new filename to avoid the old logo's browser cache. Project illustrations are simple HTML/CSS method diagrams, not AI-generated images or measured result plots.
 
 `public/social-preview.svg` is the editable source for the 1200 × 630 sharing card; `public/social-preview.png` is its browser-rendered export. If the SVG changes, regenerate the PNG. Open Graph defaults are in `index.html`; React updates title, description, and locale after a language switch. Social crawlers that do not run JavaScript see the English defaults.
 
