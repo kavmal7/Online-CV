@@ -14,14 +14,6 @@ export default defineConfig({
               name: 'react-vendor',
               test: /node_modules[\\/](react|react-dom|scheduler)[\\/]/,
             },
-            {
-              name: 'ui-vendor',
-              test: /node_modules[\\/](@chakra-ui|@emotion|framer-motion)[\\/]/,
-            },
-            {
-              name: 'carousel-vendor',
-              test: /node_modules[\\/](react-slick|slick-carousel|enquire\.js|json2mq)[\\/]/,
-            },
           ],
         },
       },

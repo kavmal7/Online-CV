@@ -1,30 +1,15 @@
-import { Box, Container, HStack, Link, Text, Image } from '@chakra-ui/react';
-
-import linkedinLogo from './extra_files/In-White-128.png';
-import githubLogo from './extra_files/github-mark-white.png';
-import gitlabLogo from './extra_files/gitlab-logo-700.png';
-
-// Defining a black footer containing contact details and relevant profile links
-const Footer = () => (
-  <Box id="footer" bg="black" color="white" py={4} position="relative" bottom={0} width="100%" alignItems="center" display="flex" flexDirection="column" justifyContent="center">
-    <Container maxW="container.md" textAlign="center" alignItems="center">
-      <Text mb={4}>
-        Contact me:{' '}
-        <Link href="mailto:kavyamal74@gmail.com">kavyamal74@gmail.com</Link>
-      </Text>
-      <HStack spacing={6} justify="center">
-        <Link href="https://www.linkedin.com/in/kavya-malhotra" isExternal>
-          <Image src={linkedinLogo} alt="LinkedIn" boxSize="30px"/>
-        </Link>
-        <Link href="https://github.com/kavmal7" isExternal>
-          <Image src={githubLogo} alt="GitHub" boxSize="30px"/>
-        </Link>
-        <Link href="https://git.app.uib.no/Kavya.Malhotra" isExternal>
-          <Image src={gitlabLogo} alt="GitLab" boxSize="30px"/>
-        </Link>
-      </HStack>
-    </Container>
-  </Box>
-);
-  
-export default Footer;
+export default function Footer({ copy }) {
+  return (
+    <footer id="footer" aria-labelledby="contact-title">
+      <div className="shell">
+        <h2 id="contact-title">{copy.title}</h2>
+        <a className="contact-email" href="mailto:kavyamal74@gmail.com">kavyamal74@gmail.com<span aria-hidden="true"> ↗</span></a>
+        <div className="footer-bottom"><div className="social-links">
+          <a href="https://www.linkedin.com/in/kavya-malhotra" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/kavmal7" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://git.app.uib.no/Kavya.Malhotra" target="_blank" rel="noreferrer">GitLab ↗</a>
+        </div><a href="#about">{copy.top} ↑</a></div>
+      </div>
+    </footer>
+  );
+}

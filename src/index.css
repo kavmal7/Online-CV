@@ -1,17 +1,67 @@
+:root {
+  --paper: #f8fbff;
+  --surface: #ffffff;
+  --ink: #082754;
+  --muted: #52657c;
+  --accent: #075eac;
+  --bright: #168cff;
+  --line: #d9e3ee;
+  --tint: #eaf3fc;
+}
+/* Explicit browser defaults preserve the portfolio's typography and spacing. */
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  touch-action: manipulation;
 }
-
-#root {
-  min-height: 100vh;
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-feature-settings: 'kern';
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
+  overflow-wrap: break-word;
+}
+:where(h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd) { margin: 0; }
+:where(h1, h2, h3, h4, h5, h6) { font-size: inherit; font-weight: inherit; }
+:where(ol, ul) { margin: 0; padding: 0; }
+a { background: transparent; color: inherit; text-decoration: inherit; text-underline-offset: 4px; }
+small { font-size: 80%; }
+button {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  overflow: visible;
+  text-transform: none;
+  cursor: pointer;
+}
+button::-moz-focus-inner { border: 0; padding: 0; }
+img, svg { display: block; }
+img { max-width: 100%; height: auto; border-style: none; }
+details { display: block; }
+summary { display: list-item; }
+#root { min-height: 100vh; }
+::selection { background: #cce6ff; color: var(--ink); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+button, a, summary { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }

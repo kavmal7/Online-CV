@@ -1,64 +1,15 @@
-import { Box, Container, Text, VStack, HStack, Link, Divider } from '@chakra-ui/react';
 import SectionHeading from './SectionHeading';
 
-// Laying out data for the component
-const academicExperience = [
-    {
-        institution: 'University College London',
-        degree: 'M.Sc. Data Science and Machine Learning',
-        year: '2025 - 2026',
-        description: 'Taking the next step at a globally prestigious university, complementing and furthering my experiences during my bachelor\'s degree (particularly in the field of computing). Have joined societies related to my interests here too.',
-        institutionUrl: 'https://www.ucl.ac.uk/'
-    },
-    {
-        institution: 'University of Bergen',
-        degree: 'B.Sc. Data Science',
-        year: '2021 - 2024',
-        description: 'Completed various courses related to CS but with a focus on Data Science. During this time, I also did extracurriculars such as joining the CS group, where I occasionally went to for assistance or assisting others, apart from special events.',
-        institutionUrl: 'https://www.uib.no/'
-    },
-    {
-        institution: 'International Baccalaureate (Bergen Katedralskole)',
-        degree: 'IB Diploma',
-        year: '2017 - 2019 (excluding retakes)',
-        description: 'Completed the IB Diploma in 2019, but retook some subjects to improve my grade. The lessons I learned here were invaluable for my development.',
-        institutionUrl: 'https://ibo.org/'
-    },
-    {
-        institution: 'International School of Bergen',
-        degree: 'PYP and MYP completion',
-        year: '2009 - 2017',
-        description: 'Completed IBO\'s Primary Years Programme (PYP) and the Middle Years Programme (MYP) at this institution. The main use of English here really honed my English capabilities.',
-        institutionUrl: 'https://www.isbergen.no/'
-    }
-]
-
-// Defining the component containing a column listing each institution and information
-const Education = () => (
-    <Box py={{ base: 8, md: 12 }} width="full">
-        <Container maxW="container.md" textAlign="center">
-        <SectionHeading>Education</SectionHeading>
-        <VStack spacing={8} align="stretch">
-          {academicExperience.map((item, index) => (
-            <Box key={`${item.institution}-${item.degree}`} mb={8}>
-              <HStack spacing={6} align="start">
-                <Box textAlign="left">
-                  <Text fontWeight="bold" fontSize="lg">{item.degree}</Text>
-                  <Text fontSize="md" color="gray.600">{item.institution}</Text>
-                  <Text fontSize="sm" color="gray.500">{item.year}</Text>
-                  <Text fontSize="sm" mt={2}>{item.description}</Text>
-                  <Link href={item.institutionUrl} color="blue.500" isExternal mt={2}>Visit Website</Link>
-                </Box>
-              </HStack>
-              {index < academicExperience.length - 1 && <Divider my={6}/>}
-            </Box>
-          ))}
-        </VStack>
-        <Text fontSize="md" color="gray.500" mt={10}>
-          Grade Transcripts are available upon request.
-        </Text>
-      </Container>
-    </Box>
-);
-
-export default Education;
+export default function Education({ copy }) {
+  return (
+    <section id="education" className="section shell" aria-labelledby="education-title">
+      <SectionHeading id="education-title" number="03" title={copy.title} />
+      <div className="education-grid">{copy.items.map((item) => <article key={item.institution}>
+        <p className="eyebrow">{item.date}</p><h3>{item.institution}</h3>
+        <p className="education-location">{item.location}</p>
+        <p className="degree">{item.degree}</p><p className="study-status">{item.status}</p><p className="muted">{item.description}</p>
+      </article>)}</div>
+      <p className="section-note">{copy.note}</p>
+    </section>
+  );
+}

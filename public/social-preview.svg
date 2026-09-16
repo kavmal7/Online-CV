@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f8fbff"/>
+  <path d="M80 100h45" stroke="#168cff" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="145" y="106" fill="#52657c" font-size="18" letter-spacing="3">DATA SCIENCE · MACHINE LEARNING</text>
+    <text x="76" y="252" fill="#082754" font-size="76" letter-spacing="-4">Kavya Malhotra</text>
+    <text x="80" y="326" fill="#52657c" font-size="25">AI research at UCL. Applied AI at DNB.</text>
+    <path d="M80 500h1040" stroke="#d9e3ee"/>
+    <text x="80" y="550" fill="#52657c" font-size="20">kavmal7.github.io/Online-CV</text>
+    <text x="1010" y="550" fill="#075eac" font-size="20">EN / NO</text>
+  </g>
+  <image href="km-logo.png" x="820" y="204" width="300" height="168"/>
+</svg>

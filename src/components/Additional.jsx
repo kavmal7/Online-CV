@@ -1,98 +1,14 @@
-import { Box, Container, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
 import SectionHeading from './SectionHeading';
+import Languages from './Languages';
+import Certifications from './Certifications';
 
-// Laying out data for the component
-const skillsHobbies = [
-  {
-    title: 'Python',
-    description: 'I have been coding in Python for several years, and forms the bulk of my experience. It has been especially useful for Data Science and Machine Learning, with frameworks such as NumPy, Pandas, and PyTorch.',
-  },
-  {
-    title: 'Java',
-    description: 'I have had the opportunity to code in Java, where I have done some projects, among those being a game I made with others.',
-  },
-  {
-    title: 'JavaScript, HTML & CSS',
-    description: 'JavaScript, HTML, and CSS have been crucial for my work during web development, whether professionally or for personal projects, like this website.',
-  },
-  {
-    title: 'SQL',
-    description: 'I have been able to learn and use SQL (and some of the other variants) academically, but also professionally. It has been useful for gathering and managing data at my current company.',
-  },
-  {
-    title: 'C',
-    description: 'I have some experience in C, mostly in academic scenarios, where I was able to really learn about the inner workings of operating systems and software.',
-  },
-  {
-    title: 'MATLAB',
-    description: 'I have also coded in MATLAB, mostly in academic scenarios (chiefly during my visual computing course), which was useful for my development in Data Science.',
-  },
-  {
-    title: 'Microsoft Azure',
-    description: 'I have been able to learn about and use Microsoft Azure at my recent internship. I used it as part of storage and the use of AI agents.',
-  },
-  {
-    title: 'Spreadsheet',
-    description: 'I have been using spreadsheets mostly at my work, which has been important for tracking products, pricing, or other variables.'
-  },
-  {
-    title: 'Social Media Management',
-    description: 'I have helped manage the Facebook social media account of my current company, where we advertise and promote our products.',
-  },
-  {
-    title: 'Football',
-    description: 'I enjoy playing and watching Football (Soccer), which I have been doing since childhood. It is helpful physically but understanding the tactical side also helps train one\'s brain.'
-  },
-  {
-    title: 'Cars',
-    description: 'I have been fascinated by cars since I was a child. I also enjoy motorsports such as Formula 1 and Endurance Racing, where one can learn a lot technically and strategically.'
-  },
-  {
-    title: 'Health & Fitness',
-    description: 'I regularly train at my local gym at least 4 times a week. This helps me build up my fitness and is helpful mentally too. I also enjoy hiking a lot, and have also joined the hiking society at my current university.'
-  },
-  {
-    title: 'Gaming',
-    description: 'Perhaps like most people my age, I enjoy gaming. I have played a wide range of games, from single player to multiplayer, both on PlayStation and PC. While playing a lot is excessive, gaming does involve lots of thinking, improves hand-eye coordination, and much more.'
-  },
-  {
-    title: 'Reading',
-    description: 'I have been reading books from a young age. In particular, I like reading science-based or fact books such as encyclopedias, but I have also read various fiction books.'
-  },
-  {
-    title: 'Science',
-    description: 'From a young age, I have been very interested in science. Like other kids, I would often say that I wished to be an astronaut. That didn\'t materialise, but I still have a strong interest in various scientific fields, from reading books, watching shows and documentaries, and even owning a telescope at home. Moreover, I have joined the Space Society at my current university and continue to read books related to Science.'
-  },
-  {
-    title: 'Artificial Intelligence',
-    description: 'I have been into AI for a while, seeing the breakneck pace of recent developments and even before that, which is what drove me to take the degrees that I took. I have also joined the AI Society at my current university.',
-  }
-];
-
-// Defining component information using the Accordion dropdown div
-const Additional = () => (
-  <Box py={{ base: 8, md: 12 }} width="full">
-    <Container maxW="container.md" textAlign="center">
-      <SectionHeading>Skills &amp; Hobbies</SectionHeading>
-      <Accordion allowToggle>
-        {skillsHobbies.map((item) => (
-          <AccordionItem key={item.title}>
-            <h3>
-              <AccordionButton>
-                <Box flex="1" textAlign="left">
-                  {item.title}
-                </Box>
-                <AccordionIcon/>
-              </AccordionButton>
-            </h3>
-            <AccordionPanel pb={4}>
-              {item.description}
-            </AccordionPanel>
-          </AccordionItem>
-        ))}
-      </Accordion>
-    </Container>
-  </Box>
-);
-  
-export default Additional;
+export default function Additional({ copy, language }) {
+  return (
+    <section id="skills-hobbies" className="section shell" aria-labelledby="skills-title">
+      <SectionHeading id="skills-title" number="04" title={copy.skills.title} />
+      <div className="skills-grid">{copy.skills.groups.map((group) => <div key={group.title}><h3>{group.title}</h3><p>{group.text}</p></div>)}</div>
+      <div className="personal-grid"><Languages copy={copy.languages} /><div><h3>{copy.skills.personalTitle}</h3><p>{copy.skills.personal}</p></div></div>
+      <Certifications copy={copy.certifications} language={language} />
+    </section>
+  );
+}
