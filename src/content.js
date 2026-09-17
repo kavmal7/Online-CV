@@ -138,7 +138,7 @@ export const content = {
     education: {
       title: 'Utdanning',
       items: [
-        { institution: 'University College London', location: 'London, Storbritannia', degree: 'Master i datavitenskap og maskinlæring', date: '2025 – 2026', status: 'Forventet fullført september 2026', description: 'Bayesiansk dyp læring, forsterkningslæring, maskinsyn, statistisk NLP, åpen læring og generell intelligens.' },
+        { institution: 'University College London', location: 'London, Storbritannia', degree: 'Master i datavitenskap og maskinlæring', date: '2025 – 2026', status: 'Forventet fullført september 2026', description: 'Bayesiansk dyp læring, forsterkende læring, maskinsyn, statistisk NLP, åpen læring og generell intelligens.' },
         { institution: 'Universitetet i Bergen', location: 'Bergen', degree: 'Bachelor i datavitenskap', date: '2021 – 2024', status: 'Fullført', description: 'Maskinlæring, dyp læring, algoritmer, databaser, systemutvikling og det matematiske grunnlaget for datavitenskap.' },
       ],
       note: 'Referanser og karakterutskrifter er tilgjengelige på forespørsel.',
