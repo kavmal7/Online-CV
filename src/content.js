@@ -146,7 +146,7 @@ export const content = {
     skills: {
       title: 'Ferdigheter og interesser',
       groups: [
-        { title: 'KI og maskinlæring', text: 'PyTorch, JAX, Hugging Face, vLLM, NLP, dyp læring, forsterkningslæring, RAG og evaluering av språkmodeller.' },
+        { title: 'KI og maskinlæring', text: 'PyTorch, JAX, Hugging Face, vLLM, NLP, dyp læring, forsterkende læring, RAG og evaluering av språkmodeller.' },
         { title: 'Programmering og infrastruktur', text: 'Python, Java, JavaScript, HTML, CSS, SQL, C, MATLAB, Git, Microsoft Azure, Linux og Jupyter.' },
         { title: 'Forskningsinteresser', text: 'KI-agenter, verktøystøtte, verdensmodeller, åpen læring og pålitelig evaluering.' },
       ],
