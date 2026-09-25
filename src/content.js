@@ -129,10 +129,10 @@ export const content = {
     experience: {
       title: 'Arbeidserfaring', intro: 'Anvendt KI, programvareutvikling og arbeid med data fra virkeligheten.',
       items: [
-        { company: 'DNB', role: 'KI-utvikler · Praksis', date: 'Juni – august 2025', location: 'Oslo', bullets: ['Bidro til interne KI-verktøy, RAG-chatboter, dokumentasjonssystemer og skybaserte tjenester.', 'Støttet utvikling og integrasjon av KI-arbeidsflyter i et stort teknologimiljø.'] },
+        { company: 'DNB', role: 'KI-utvikler · Intern', date: 'Juni – august 2025', location: 'Oslo', bullets: ['Bidro til interne KI-verktøy, RAG-chatboter, dokumentasjonssystemer og skybaserte tjenester.', 'Støttet utvikling og integrasjon av KI-arbeidsflyter i et stort teknologimiljø.'] },
         { company: 'Indisk Emporium AS', role: 'Utvikler', date: 'Januar 2021 – juni 2025', location: 'Bergen', bullets: ['Vedlikeholdt og videreutviklet nettsystemer og produktdatabaser.', 'Bidro med dataanalyse til planlegging og forbedring av driften.'] },
-        { company: 'Vogue International', role: 'Juniorutvikler · Praksis', date: '2024 – 2025', location: 'Remote · New Delhi, India', bullets: ['Bisto med eksportdokumentasjon og programvare for dokumenthåndtering i operative workflower.'] },
-        { company: 'Digiscreens', role: 'Utvikler · Praksis', date: 'August – desember 2023', location: 'Bergen', bullets: ['Utviklet funksjoner for databehandling, tester, visualiseringer og nettgrensesnitt for forskning på europeiske strømmetjenester.', 'Samarbeidet med en prosjektgruppe ved universitetet og en ekstern klient.'] },
+        { company: 'Vogue International', role: 'Juniorutvikler · Intern', date: '2024 – 2025', location: 'Remote · New Delhi, India', bullets: ['Bisto med eksportdokumentasjon og programvare for dokumenthåndtering i operative workflower.'] },
+        { company: 'Digiscreens', role: 'Utvikler · Intern', date: 'August – desember 2023', location: 'Bergen', bullets: ['Utviklet funksjoner for databehandling, tester, visualiseringer og nettgrensesnitt for forskning på europeiske strømmetjenester.', 'Samarbeidet med en prosjektgruppe ved universitetet og en ekstern klient.'] },
       ],
     },
     education: {
